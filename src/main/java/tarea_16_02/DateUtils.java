@@ -2,9 +2,6 @@ package tarea_16_02;
 
 public class DateUtils {
 
-
-
-
     public String getDate(int day, String month, int year) {
 
         String message = "";
@@ -31,7 +28,7 @@ public class DateUtils {
 
 
         if(!wrongDay && !wrongMonth && !wrongYear){
-            message = addMonth(day,month,year);
+            message = nextDate(day,month,year);
         }
 
 
@@ -43,7 +40,7 @@ public class DateUtils {
 
     }
 
-    public String addMonth (int day , String month , int year){
+    public String nextDate (int day , String month , int year){
 
         String message = "";
 
@@ -77,6 +74,7 @@ public class DateUtils {
                 monthA = "diciembre";
             } else if (month.contentEquals("diciembre")) {
                 monthA = "enero";
+                year++;
             }
             message = dayA + " " + monthA + " " + year;
         }

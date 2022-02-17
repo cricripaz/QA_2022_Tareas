@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="test_tarea_16_02.DateTest" tests="6" skipped="0" failures="0" errors="0" timestamp="2022-02-17T03:17:17" hostname="mbp-de-cristian" time="0.04">
+<testsuite name="test_tarea_16_02.DateTest" tests="7" skipped="0" failures="0" errors="0" timestamp="2022-02-17T11:47:36" hostname="mbp-de-cristian" time="0.046">
   <properties/>
-  <testcase name="[1] 31, marzo, 2022, 1 abril 2022" classname="test_tarea_16_02.DateTest" time="0.029"/>
-  <testcase name="[2] 29, julio, 2012, 30 julio 2012" classname="test_tarea_16_02.DateTest" time="0.001"/>
+  <testcase name="[1] 31, marzo, 2022, 1 abril 2022" classname="test_tarea_16_02.DateTest" time="0.032"/>
+  <testcase name="[2] 29, julio, 2012, 30 julio 2012" classname="test_tarea_16_02.DateTest" time="0.002"/>
   <testcase name="[3] 1, fevrero, 2012, mes incorrecto" classname="test_tarea_16_02.DateTest" time="0.001"/>
   <testcase name="[4] -20, noviembre, 2011, dia incorrecto" classname="test_tarea_16_02.DateTest" time="0.001"/>
   <testcase name="[5] 5, febrero, 9999, gestion incorrecta" classname="test_tarea_16_02.DateTest" time="0.001"/>
-  <testcase name="[6] 0, noviembree, 2020, ingresar nuevos datos" classname="test_tarea_16_02.DateTest" time="0.001"/>
+  <testcase name="[6] 31, diciembre, 2020, 1 enero 2021" classname="test_tarea_16_02.DateTest" time="0.001"/>
+  <testcase name="[7] 0, noviembree, 2020, ingresar nuevos datos" classname="test_tarea_16_02.DateTest" time="0.001"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

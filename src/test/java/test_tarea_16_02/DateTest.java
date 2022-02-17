@@ -15,6 +15,7 @@ public class DateTest {
             "1,fevrero,2012, mes incorrecto",
             "-20,noviembre,2011, dia incorrecto",
             "5,febrero,9999, gestion incorrecta",
+            "31,diciembre,2020, 1 enero 2021",
             // +2 datos incorrectos
             "0,noviembree,2020, ingresar nuevos datos"
     })
